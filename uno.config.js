@@ -8,6 +8,12 @@ import {
 } from "unocss";
 
 export default defineConfig({
+  cli: {
+    entry: {
+      patterns: ["src/**/*.{vue,js}"],
+      outFile: "src/uno.css",
+    },
+  },
   rules: [],
   presets: [
     presetUno(),

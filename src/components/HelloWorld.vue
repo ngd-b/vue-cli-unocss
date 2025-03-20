@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }} goo</h1>
+    <h1 class="font-size-32px color-blue">{{ msg }} good</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
       check out the

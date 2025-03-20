@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "unocss & vue-cli-service serve",
+    "serve:unocss": "unocss --watch & vue-cli-service serve",
+    "build": "unocss & vue-cli-service build ",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -14,7 +15,6 @@
   "devDependencies": {
     "@babel/core": "^7.26.10",
     "@babel/eslint-parser": "^7.26.10",
-    "@unocss/webpack": "^66.1.0-beta.6",
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
